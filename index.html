@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Det &oslashkologiske kvarter</title>
+        <link href="index.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial scale= 1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- Start navbar -->
+        <header>
+        <div id="navbar">
+            <h1>Det &oslashkologiske kvarter</h1>
+
+            <ul>
+                <a href="index.html"> Hovedside </a>
+                <a href="#"> Meny </a>
+                <a href="om-oss.html"> Om oss </a>
+                <a href="kontakt.html"> Kontakt </a>
+
+            </ul>
+        </div>
+        </header> <!-- End navbar -->
+
+         <img src="images/vegetables-1085063_1920.JPG" alt="fruits and vegetables">
+       
+         <!-- Start main -->
+         <div class="main">
+
+             <div class="col-one">
+            <p> Rotgr&oslashnnsaksform med byggryn </p>
+            <img src="images/383451.JPG" alt="">
+            </div>
+
+            <div class="col-two">
+            <p> Kremet kyllingsuppe med <br>
+                hjemmelaget kraft </p>
+            <img src="images/384101.JPG" alt="">
+            </div>
+
+            <div class="col-three">
+            <p> R&oslashmmevafler med r&oslashrte b&aeligr <br>
+                og brunost </p>
+            <img src="images/384080.JPG" alt="">
+            </div>
+
+         </div> <!-- End main -->
+
+         <!-- Start footer -->
+        <footer>
+            <h2>Det &oslashkologiske kvarter</h2>
+            <p> Du finner oss p&aring Torget i Bergen </p>
+        </footer> <!-- End footer -->
+
+
+        <!-- JavaScript for navbar -->
+        <script>
+            window.onscroll = function() {myFunction()};
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+                function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+             } else {
+            navbar.classList.remove("sticky");
+  }
+}   
+        </script>
+    </body>
+</html>
