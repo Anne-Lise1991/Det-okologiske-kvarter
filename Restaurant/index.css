@@ -1,0 +1,142 @@
+body {
+    background-image: url(images/tamanna-rumee-8G5XZQwlsqA-unsplash.JPG);
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Navbar */
+
+#navbar {
+    background: #DDBEA9;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #6B705C;
+    padding: 16px;
+    padding-top: 40px;
+    padding-left: 65px;
+}
+
+a:hover {
+    color: #CB997E;
+}
+
+h1 {
+    color: #6B705C;
+    font-size: 2.4rem;
+    padding-left: 30px;
+
+}
+ /* End navbar */
+
+
+/*  Main menu */
+
+header {
+    height: 100px;
+}
+
+.main {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 50px;
+    
+}
+
+.main img {
+    width: 300px;
+}
+
+.main p {
+    font-size: 1.5rem;
+    color: #333;
+} 
+
+/* End main menu */
+
+
+img {
+    width: 100vw;
+    margin-bottom: 15px;
+}
+
+/* Start form */
+.form-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+label {
+    font-size: 1.25rem;
+    margin-left: 10px;
+    color: #333;
+}
+
+input {
+    margin-left: 10px;
+    color: #333;
+} 
+
+textarea {
+    margin-left: 10px;
+}
+/* End form */
+
+
+footer {
+    color: #6B705C;
+    background: #DDBEA9;
+    padding: 80px;
+    column-count: 2;
+}
+
+/* navbar sticky */
+.content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  } /* End navbar sticky */
+
+  
+
+  /* Start media query */
+@media (min-width: 768px) {
+    #navbar {
+        column-count: 2;
+    }
+
+    a {
+        font-size: 1.5rem;
+    }
+
+    .main {
+        column-count: 3;
+    }
+
+    img {
+        width: 100vw;
+    }
+
+    .col-one {
+        margin-left: 80px;
+        margin-right: 90px;
+    }
+    
+    .col-two {
+        margin-left: 40px;
+    }
+} 
+/* End media query */ 

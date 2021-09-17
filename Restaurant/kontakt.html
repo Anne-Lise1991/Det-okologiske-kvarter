@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Kontakt </title>
+        <link href="index.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <div id="navbar">
+            <h1>Det &oslashkologiske kvarter</h1>
+
+            <ul>
+                <a href="index.html"> Hovedside </a>
+                <a href="#"> Meny </a>
+                <a href="om-oss.html"> Om oss </a>
+                <a href="kontakt.html"> Kontakt </a>
+
+            </ul>
+        </div>
+
+        <div class="form-container">
+            <form method="GET" action="resultat.html" enctype="multipart/form-data">
+            <label for="fname"> Navn </label> <br>
+            <input type="fname"> <br>
+            <br>
+
+            <label for="lastname"> Etternavn </label> <br>
+            <input type="lname"> <br>
+            <br>
+
+            <label for="email"> Epost </label> <br>
+            <input type="email" id="email" name="email"> <br>
+            <br>
+
+            <label for="phone"> Telefon </label> <br>
+            <input> <br>
+            <br>
+
+            <label for="message"> Melding </label> <br>
+            <textarea placeholder="" name="message" rows="10" cols="30"></textarea>
+            </form> <br>
+            <br>
+
+            <label for="food">Velg din favoritt matrett:</label> 
+            <select id="food" name="food">
+                <option value="Rotgr&oslashnnsaker"> Rotgr&oslashnnsaker </option>
+                <option valure="Kremet kyllingsuppe"> Kremet kyllingsuppe </option>
+                <option value="R&oslashmmevafler"> R&oslashmmevafler </option>
+            </select> <br>
+            <br>
+
+            <input type="submit" value="Send">
+        </div>
+
+        <footer>
+            <h2>Det &oslashkologiske kvarter</h2>
+            <p> Du finner oss p&aring Torget i Bergen </p>
+        </footer>
+
+        <script>
+            window.onscroll = function() {myFunction()};
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+                function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+             } else {
+            navbar.classList.remove("sticky");
+  }
+}   
+        </script>
+    </body>
+</html>
+
+
+

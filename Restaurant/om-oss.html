@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Om oss</title>
+        <link href="index.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial scale= 1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+          <!-- Start navbar -->
+          <header>
+            <div id="navbar">
+                <h1>Det &oslashkologiske kvarter</h1>
+    
+                <ul>
+                    <a href="index.html"> Hovedside </a>
+                    <a href="#"> Meny </a>
+                    <a href="om-oss.html"> Om oss </a>
+                    <a href="kontakt.html"> Kontakt </a>
+    
+                </ul>
+            </div>
+            </header> <!-- End navbar -->
+
+               <!-- Start footer -->
+        <footer>
+            <h2>Det &oslashkologiske kvarter</h2>
+            <p> Du finner oss p&aring Torget i Bergen </p>
+        </footer> <!-- End footer -->
+
+
+        <!-- JavaScript for navbar -->
+        <script>
+            window.onscroll = function() {myFunction()};
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+                function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+             } else {
+            navbar.classList.remove("sticky");
+  }
+}   
+        </script>
+    </body>
+</html>
